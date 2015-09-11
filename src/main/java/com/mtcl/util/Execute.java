@@ -19,9 +19,9 @@ public class Execute {
 		//Configure SDM name
 		//Execute
 		
-		String rootFolder = "C:/Invoices/04-Apr";
+		String rootFolder = "C:/Invoices/08-Aug";
 		String excelFileName = rootFolder + File.separator
-				+ "April_Invoice_details.xlsx";
+				+ "Aug_invoice_details_Internal.xlsx";
 		String sdmNameFilter = "Mukul";
 		ReadExcel readExcel = new ReadExcel();
 		FileOperations fo = new FileOperations();
